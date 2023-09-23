@@ -21,16 +21,16 @@ A convolution layer transforms an input volume into an output volume of differen
     * Distribute value
     * Pooling backward
 
-#### Architecture
+### Architecture
 The Arcitecture of the model.
 
 <center><img src="images/model.png" style="width:600px;height:300px;"></center>
 
-##### Zero Padding
+### Zero Padding
 Zero-padding adds zeros around the border of an image:
 <center><img src="images/PAD.png" style="width:600px;height:400px;"></center>
 
-##### Single Step Convolution
+### Single Step Convolution
 A single step of convolution will apply the filter to a single position of the input. This will be used to build a convolutional unit, which: 
 
 - Takes an input volume 
@@ -38,7 +38,7 @@ A single step of convolution will apply the filter to a single position of the i
 - Outputs another volume (usually of different size)
 <center><img src="images/Convolution_schematic.gif" style="width:600px;height:300px;"></center>
 
-##### Convolutional Neural Networks - Forward Pass
+### Convolutional Neural Networks - Forward Pass
 In the forward pass, we will take many filters and convolve them on the input. Each 'convolution' gives us a 2D matrix output. We will then stack these outputs to get a 3D volume:
 
 
@@ -48,7 +48,7 @@ https://github.com/abel-shimeles/CNN_From_Scratch/assets/127602569/b2842799-e74c
 
 
 
-##### Pooling Layer
+### Pooling Layer
 The pooling (POOL) layer reduces the height and width of the input. It helps reduce computation, as well as helps make feature detectors more invariant to its position in the input. The two types of pooling layers are: 
 
 - Max-pooling layer: slides an ($f, f$) window over the input and stores the max value of the window in the output.
