@@ -40,7 +40,13 @@ A single step of convolution will apply the filter to a single position of the i
 
 ##### Convolutional Neural Networks - Forward Pass
 In the forward pass, we will take many filters and convolve them on the input. Each 'convolution' gives us a 2D matrix output. We will then stack these outputs to get a 3D volume:
+
+
+
 https://github.com/abel-shimeles/CNN_From_Scratch/assets/127602569/b2842799-e74c-4ffa-85f8-618d8f8f5e61
+
+
+
 
 ##### Pooling Layer
 The pooling (POOL) layer reduces the height and width of the input. It helps reduce computation, as well as helps make feature detectors more invariant to its position in the input. The two types of pooling layers are: 
