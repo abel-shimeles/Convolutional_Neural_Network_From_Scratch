@@ -70,7 +70,7 @@ The pooling (POOL) layer reduces the height and width of the input. It helps red
 1. Clone this repository
 
 ```shell
-git clone https://github.com/abel-shimeles/CNN_From_Scratch
+git clone https://github.com/abel-shimeles/CNN_From_Scratch.git
 cd CNN_From_Scratch
 ```
 
